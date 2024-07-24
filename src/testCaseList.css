@@ -1,0 +1,74 @@
+body {
+    background-color: #12485d;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.test-case-list-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.test-case-list {
+    font-family: Arial, sans-serif;
+    width: 80%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #082d3b;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.test-case-list th,
+.test-case-list td {
+    border: 1px solid #14333f;
+    padding: 8px;
+    text-align: left;
+    color: white;
+}
+
+.test-case-list th {
+    background-color: #031e2a;
+}
+
+.test-case-list tr:nth-child(even) {
+    background-color: #204655;
+}
+
+.test-case-list tr:nth-child(odd) {
+    background-color: #204655;
+}
+
+.test-case-list tr:hover {
+    background-color: #666;
+}
+
+.test-case-list input,
+.test-case-list select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+}
+
+.test-case-list button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.test-case-list button:hover {
+    background-color: #45a049;
+}
